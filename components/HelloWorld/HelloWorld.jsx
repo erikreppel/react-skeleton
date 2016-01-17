@@ -7,10 +7,9 @@ class HelloWorld extends React.Component {
         <div>
         <h1>Hello World</h1>
         <p>
-        <Link to={'/counter/20'}>
-            This is a link
-        </Link>
+        <Link to='/counter'>This is a link</Link>
         </p>
+        {this.props.children}
         </div>
     )
   }

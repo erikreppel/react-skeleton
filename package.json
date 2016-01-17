@@ -35,5 +35,8 @@
     "babel-preset-react": "^6.3.13",
     "webpack": "^1.12.11",
     "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors"
   }
 }

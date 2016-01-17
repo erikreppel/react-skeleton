@@ -5,10 +5,12 @@ import { Router, Route, IndexRoute } from 'react-router'
 import HelloWorld from './components/HelloWorld/HelloWorld.jsx'
 import Counter from './components/Counter/Counter.jsx'
 
+
 render((
     <Router>
         <Route path="/" component={HelloWorld}> 
-            <Route path="/counter/:count" component={Counter}/>
+            <Route path="counter" component={Counter}/>
         </Route>
+        <Route path="/count" component={Counter}/>
     </Router>
     ), document.getElementById('content'))
