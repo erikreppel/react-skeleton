@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A react template for a client side app using babel es2015, webpack, and react routing. A flux implementation is not imcluded",
   "main": "main.js",
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/erikreppel/react-skeleton.git"
